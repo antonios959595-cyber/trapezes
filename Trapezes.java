@@ -1,7 +1,7 @@
 package Trapezes;
 
 public class Trapezes {
-		
+		//Γενικη παρατηρηση τα πεδια τα γραφουμε με μικρο π.χ epwnumia ενω τις κλασεις με κεφαλαια Trapeza
 		private String Epwnumia;
 		private double Ypoloipo;
 		private String AFM;
@@ -21,19 +21,19 @@ public class Trapezes {
 	
 	public String getEpwnumia() {
 		return epwnumia;
-	}
+	} //typo
 	
 	public double getYpoloipo() {
 		return ypoloipo;
-	}
+	} //typo
 	
 	public String getAFM() {
 		return afm;
-	}
+	} //typo
 	
-	public int get ForologikiKatigoria() {
+	public int getForologikiKatigoria() {
 		return forologikikatigoria;
-	}
+	} //typo
 		
 	
 	

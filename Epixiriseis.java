@@ -7,7 +7,7 @@ public class Epixiriseis extends Trapezes{
 public Epixiriseis(String Epwnumia, double Ypoloipo, String AFM, int ForologikiKatigoria, double EterikaDaneia) {
 		
 		super (Epwnumia, Ypoloipo, AFM, ForologikiKatigoria);
-		this.EterikaDaneia = EtrikaDaneia;
+		this.EterikaDaneia = EterikaDaneia; //typo
 	}
 
 public double getDaneia() {

@@ -6,7 +6,7 @@ public Kratos(String Epwnumia, double Ypoloipo, String AFM, int ForologikiKatigo
 		
 		super (Epwnumia, Ypoloipo, AFM, ForologikiKatigoria);
 		
-		ForologikiKatigoria = 0;
+		ForologikiKatigoria = 0; //ΩΡΑΙΟΣ!!!
 	}
 
 }
