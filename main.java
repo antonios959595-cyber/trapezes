@@ -10,7 +10,7 @@ public class main {
 
 		sinalasomenoi.add(new Kratos("Kentriki", 200, "1234", 0));
 		//Η φορολογικη κατηγορια την δηλωνεις int που σημαινει ακαιρος αλλα του δινεις 0.15 σαν τιμη
-		sinalasomenoi.add(new Idiotes("babis", 100, "2134", 15, 5000, "AE1520"));
+		sinalasomenoi.add(new Idiotes("babis", 100, "2134", 15, 5000, ));
 		//οι επιχειρησεις δεν εχουν AT
 		sinalasomenoi.add(new Epixiriseis("souvlakia", 50, "3134", 0, 325, "ZH4032"));
 
@@ -39,7 +39,7 @@ public class main {
 		//Η φορολογικη κατηγορια την δηλωνεις int που σημαινει ακαιρος αλλα του δινεις 0.16 σαν τιμη
 		Idiotes id2 = new Idiotes("makis", 230, "2234", 16, 5100, "BE1521");
 		//οι επιχειρησεις δεν εχουν AT
-		Epixiriseis ep2 = new Epixiriseis("krewpolio", 500, "3144", 0, 432, "KH3232");
+		Epixiriseis ep2 = new Epixiriseis("krewpolio", 500, "3144", 0, 432);
 
 		k2.add(kr2);
 		k2.add(id2); //same
@@ -95,3 +95,4 @@ public class main {
 	}
 
 }
+
