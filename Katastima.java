@@ -12,6 +12,8 @@ public class Katastima {
 		this.name = name;
 		
 	}
+	public void add(Trapezes p) {
+		pelates.add(p);
 
 //edw kati thelw na dw
 	//Ayto pou mallon itheles na deis einai oti den 8a eprepe na pernas sigkekrimeno typo pelati alla ton geniko typo
@@ -27,3 +29,4 @@ public class Katastima {
 	
 
 }
+
