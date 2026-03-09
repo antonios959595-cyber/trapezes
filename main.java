@@ -10,7 +10,7 @@ public class main {
 
 		sinalasomenoi.add(new Kratos("Kentriki", 200, "1234", 0));
 		//Η φορολογικη κατηγορια την δηλωνεις int που σημαινει ακαιρος αλλα του δινεις 0.15 σαν τιμη
-		sinalasomenoi.add(new Idiotes("babis", 100, "2134", 0.15, 5000, "AE1520"));
+		sinalasomenoi.add(new Idiotes("babis", 100, "2134", 15, 5000, "AE1520"));
 		//οι επιχειρησεις δεν εχουν AT
 		sinalasomenoi.add(new Epixiriseis("souvlakia", 50, "3134", 0, 325, "ZH4032"));
 
@@ -27,7 +27,7 @@ public class main {
 
 		Kratos kr1 = new Kratos("Kentriki", 200, "1234", 0);
 		//Η φορολογικη κατηγορια την δηλωνεις int που σημαινει ακαιρος αλλα του δινεις 0.15 σαν τιμη
-		Idiotes id1 = new Idiotes("babis", 100, "2134", 0.15, 5000, "AE1520");
+		Idiotes id1 = new Idiotes("babis", 100, "2134", 15, 5000, "AE1520");
 		//οι επιχειρησεις δεν εχουν AT
 		Epixiriseis ep1 = new Epixiriseis("souvlakia", 50, "3134", 0, 325, "ZH4032");
 
@@ -37,7 +37,7 @@ public class main {
 
 		Kratos kr2 = new Kratos("ellas", 100, "2234", 0);
 		//Η φορολογικη κατηγορια την δηλωνεις int που σημαινει ακαιρος αλλα του δινεις 0.16 σαν τιμη
-		Idiotes id2 = new Idiotes("makis", 230, "2234", 0.16, 5100, "BE1521");
+		Idiotes id2 = new Idiotes("makis", 230, "2234", 16, 5100, "BE1521");
 		//οι επιχειρησεις δεν εχουν AT
 		Epixiriseis ep2 = new Epixiriseis("krewpolio", 500, "3144", 0, 432, "KH3232");
 
@@ -93,4 +93,5 @@ public class main {
 			System.out.println("kai ta 2 katasthmata exoun isa daneia" + daneiak1);
 		}
 	}
+
 }
